@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Row Span</title>
+</head>
+
+<body>
+
+    <table border="1">
+        <tr>
+            <td rowspan="2">This spans two rows</td>
+            <td>Row 1 Column 2</td>
+        </tr>
+        <tr>
+            <td>Row 2 Column 2</td>
+        </tr>
+    </table>
+
+    <br> <br>
+
+    <table border="1">
+        <tr>
+            <td rowspan="2">This spans two rows</td>
+            <td>Row 1 Col 2</td>
+        </tr>
+        <tr>
+            <td>Row 2 Col 2</td>
+        </tr>
+
+        <tr>
+            <td>AAA</td>
+            <td>BBB</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table border="1">
+        <tr>
+            <td>qqqqqqqq</td>
+            <td>Row 1 Col 2</td>
+        </tr>
+        <tr>
+            <td>QQQQQQ</td>
+            <td rowspan="2">2</td>
+        </tr>
+        <tr>
+            <td>AAA</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table border="1">
+        <tr>
+            <td rowspan="2">Span1</td>
+            <td>Row 1 Col 2</td>
+        </tr>
+        <tr>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>AAA</td>
+            <td rowspan="2">AA</td>
+        </tr>
+        <tr>
+            <td>22</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table border="1" cellpadding="50px">
+        <tr>
+            <td></td>
+            <td bgcolor="grey"></td>
+            <td bgcolor="black"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2" bgcolor="grey"></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+        </tr>
+    </table>
+
+    <br> <br>
+
+    <table border="1" cellpadding="50px">
+        <tr>
+            <td></td>
+            <td bgcolor="grey"></td>
+            <td rowspan="3" bgcolor="black"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td rowspan="2" bgcolor="grey"></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
