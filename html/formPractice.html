@@ -4,30 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Forms</title>
+
 </head>
 
 <body>
 
-    <form action="https://www.youtube.com/" method="POST">
+    <form action="firstprogram.html" method="POST">
+
+        <h2>Select your favourite sports</h2>
+        <input type="checkbox" name="basketball" id="basketball" value="B"> Basketball <br>
+        <input type="checkbox" name="vollyball" id="vollyball" value="V"> Vollyball <br>
+        <input type="checkbox" name="basketball" id="basketball" value="F"> Football <br>
+
+        <h2>Select your Gender</h2>
+        <input type="radio" name="gender" id="male" value="m">Male
+        <input type="radio" name="gender" id="female" value="f">female
+        <input type="radio" name="gender" id="prefer" value="p">Prefer not to say
         <h2>
             <marquee>Student Information</marquee>
         </h2>
+
         Name: <input type="text" disabled value="Myanmar" maxlength="10" size="30" name="nameinfo" id="n" accesskey="n"
             tabindex="3"> <br><br>
         Email: <input placeholder="@gmail.com" type="text" tabindex="2" name="emailaddress" id="E" autofocus
             required="required" accesskey="1">
         <br><br>
 
-        Password: <input type="password" name="pass"> <br><br>
+        Password: <input type="password" name="pass" tabindex="1"> <br><br>
 
         Country: <input type="text" tabindex="1" accesskey="6" name="country">
 
         <br><br>
 
-        <textarea name="" id="" cols="10" rows="10">What is your name?</textarea>
+        <textarea name="" id="" cols="30" rows="10">What is your name?</textarea>
+        <br>
+        <br>
 
         <input type="submit" value="Register">
-        <input type="reset" value="Rest Form">
+        <input type="reset" value="CLEAR">
+        <input type="image"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mr._Smiley_Face.svg/2048px-Mr._Smiley_Face.svg.png"
+            width="" height=" 40px">
+        <br>
+        <br>
+
+        <button type="submit">Submit HERE!!!</button>
+        <button type="reset">
+            <font face="Arial Black" color="Blue" size="4">CLEAR THIS FORM</font>
+        </button>
+        <button type="submit">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mr._Smiley_Face.svg/2048px-Mr._Smiley_Face.svg.png"
+                alt="Happy Face" onclick="alert('Hello!')" width="40px">
+        </button>
 
     </form>
 
