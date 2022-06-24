@@ -3,59 +3,128 @@
 
 <head>
     <meta charset="UTF-8">
+
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mr._Smiley_Face.svg/2048px-Mr._Smiley_Face.svg.png"
+        type="image/png" size="32x32">
     <title>Forms</title>
 
 </head>
 
 <body>
 
-    <form action="firstprogram.html" method="POST">
+    <video width="320px" height="240px" controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>
 
-        <h2>Select your favourite sports</h2>
-        <input type="checkbox" name="basketball" id="basketball" value="B"> Basketball <br>
-        <input type="checkbox" name="vollyball" id="vollyball" value="V"> Vollyball <br>
-        <input type="checkbox" name="basketball" id="basketball" value="F"> Football <br>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mp3">
+    </audio>
+    This is a smiling Face.
+    <img width="40px" height="40px" alt="" align="center" border="3" hspace="40px" vspace="40px"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mr._Smiley_Face.svg/2048px-Mr._Smiley_Face.svg.png">
+    This is a smiling Face.
 
-        <h2>Select your Gender</h2>
-        <input type="radio" name="gender" id="male" value="m">Male
-        <input type="radio" name="gender" id="female" value="f">female
-        <input type="radio" name="gender" id="prefer" value="p">Prefer not to say
-        <h2>
-            <marquee>Student Information</marquee>
-        </h2>
+    <br><br><br>
 
-        Name: <input type="text" disabled value="Myanmar" maxlength="10" size="30" name="nameinfo" id="n" accesskey="n"
-            tabindex="3"> <br><br>
-        Email: <input placeholder="@gmail.com" type="text" tabindex="2" name="emailaddress" id="E" autofocus
-            required="required" accesskey="1">
-        <br><br>
+    <a href="https://www.google.com">
+        <img width="40px" height="40px" alt="" align="center"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mr._Smiley_Face.svg/2048px-Mr._Smiley_Face.svg.png">
+    </a>
 
-        Password: <input type="password" name="pass" tabindex="1"> <br><br>
+    <br><br><br>
 
-        Country: <input type="text" tabindex="1" accesskey="6" name="country">
+    <figure align="center">
+        <img width="40px" height="40px" alt="" align="center"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mr._Smiley_Face.svg/2048px-Mr._Smiley_Face.svg.png">
+        <figcaption>Smiling face</figcaption>
+    </figure>
 
-        <br><br>
+    <br><br><br>
 
-        <textarea name="" id="" cols="30" rows="10">What is your name?</textarea>
-        <br>
-        <br>
+    <meter value="14417" min="0" max="14417">14417</meter>&nbsp;&nbsp; 14417 Total Visits<br>
 
-        <input type="submit" value="Register">
-        <input type="reset" value="CLEAR">
-        <input type="image"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mr._Smiley_Face.svg/2048px-Mr._Smiley_Face.svg.png"
-            width="" height=" 40px">
-        <br>
-        <br>
+    <meter value="7000" min="0" max="14417">7000</meter>&nbsp;&nbsp; 7000 Firefox<br>
 
-        <button type="submit">Submit HERE!!!</button>
-        <button type="reset">
-            <font face="Arial Black" color="Blue" size="4">CLEAR THIS FORM</font>
-        </button>
-        <button type="submit">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mr._Smiley_Face.svg/2048px-Mr._Smiley_Face.svg.png"
-                alt="Happy Face" onclick="alert('Hello!')" width="40px">
-        </button>
+    <meter value="3800" min="0" max="14417">3800</meter>&nbsp;&nbsp; 3800 Internet Explore<br>
+
+    <meter value="2062" min="0" max="14417">2062</meter>&nbsp;&nbsp; 2062 Chorme<br>
+
+    <meter value="1043" min="0" max="14417">1043</meter>&nbsp;&nbsp; 1043 Safari<br>
+
+    <meter value="312" min="0" max="14417">312</meter>&nbsp;&nbsp; 312 Opera<br>
+
+    <meter value="200" min="0" max="14417">200</meter>&nbsp;&nbsp; 200 Other<br>
+
+
+    <br><br><br>
+
+    <progress value="7500" max="10000">7500</progress>&nbsp;Progress toward ourgoal<br>
+
+    <br><br><br>
+
+    <select name="" id="" size="3" multiple="multiple">
+        <option value="m">Mandalay</option>
+        <option value="y">Yangon</option>
+        <option value="n">Nay Pyi Taw</option>
+        <option value="m">Mandalay</option>
+        <option value="y">Yangon</option>
+        <option value="n">Nay Pyi Taw</option>
+    </select>
+
+    <form action="firstprogram.html" method="">
+        <fielset>
+
+            <h2>
+                <marquee>Student Information</marquee>
+            </h2>
+
+            <h2>Select your favourite sports</h2>
+            <input type="checkbox" name="basketball" id="basketball" value="B"> Basketball <br>
+            <input type="checkbox" name="vollyball" id="vollyball" value="V"> Vollyball <br>
+            <input type="checkbox" name="basketball" id="basketball" value="F"> Football <br>
+
+            <h2>Select your Gender</h2>
+            <input type="radio" name="gender" id="male" value="m"><label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="f"> <label for="female">female</label>
+            <input type="radio" name="gender" id="prefer" value="p">Prefer not to say
+
+            <br><br>
+            Name: <input type="text" disabled value="Myanmar" maxlength="10" size="30" name="nameinfo" id="n"
+                accesskey="n" tabindex="3"> <br><br>
+            Email: <input placeholder="@gmail.com" type="text" tabindex="2" name="emailaddress" id="E" autofocus
+                required="required" accesskey="1">
+            <br><br>
+
+            Password: <input type="password" name="pass" tabindex="1"> <br><br>
+
+            Country: <input type="text" tabindex="1" accesskey="6" name="country">
+
+            <br><br>
+
+            <textarea name="" id="" cols="30" rows="10">What is your name?</textarea>
+            <br>
+            <br>
+
+            <input type="submit" value="Register">
+            <input type="reset" value="CLEAR">
+            <input type="image"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mr._Smiley_Face.svg/2048px-Mr._Smiley_Face.svg.png"
+                width="" height=" 40px">
+            <br>
+            <br>
+
+            <button type="submit">Submit HERE!!!</button>
+            <button type="reset">
+                <font face="Arial Black" color="Blue" size="4">CLEAR THIS FORM</font>
+            </button>
+            <button type="submit">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mr._Smiley_Face.svg/2048px-Mr._Smiley_Face.svg.png"
+                    alt="Happy Face" onclick="alert('Hello!')" width="40px">
+            </button>
+
+            <input type="hidden" name='hidden' value="Hello">
+        </fielset>
 
     </form>
 
